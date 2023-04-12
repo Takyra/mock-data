@@ -1,0 +1,1 @@
+export const _env = (name: string): string | undefined => process.env['REACT_APP_' + name];
